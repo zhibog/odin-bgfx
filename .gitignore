@@ -1,0 +1,38 @@
+# VS Debug folder
+.vs
+*.pdb
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.bc
+*.ll
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+!bindings/bgfx.lib
+!bindings/bimg.lib
+!bindings/bimg_decode.lib
+!bindings/bx.lib
+
+# Executables
+*.exe
+*.out
+*.app
